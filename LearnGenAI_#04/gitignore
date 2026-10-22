@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Editors and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Model weights: ignore by default, keep the one this post uses
+*.pt
+*.pth
+!persian_model.pt
+
+# Notebooks and logs
+.ipynb_checkpoints/
+*.log
